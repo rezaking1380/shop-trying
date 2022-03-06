@@ -1,0 +1,20 @@
+@font-face {
+    font-family: sansx;
+    src: url(../font/Sans\ a4fran3.ttf);
+}
+
+*{
+    direction: rtl;
+    font-family: sansx;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+/* 2:20 */

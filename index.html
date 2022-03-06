@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my froshgah 2</title>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <nav class="nav-right">
+                <a href=""><i class="fas fa-home"></i></a>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                <a href=""><i class="fas fa-search"></i></a>
+                <a href=""><i class="fas fa-user"></i></a>
+            </nav>
+            <nav class="nav-left">
+                <div class="login-btn">
+                    <i class="fas fa-user"></i>
+                    <a href="">ثبت نام / ورود</a>
+                </div>
+            </nav>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active " id="slide1">
+                    <img src="./img/s1.jpg" alt="">
+                    <span>با بهتریت قیمتی که میتونی پیدا کنی </span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./img/s2.jpg" alt="">
+                    <span>با بهتریت قیمتی که میتونی پیدا کنی </span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./img/s3.jpg" alt="">
+                    <span>با بهتریت قیمتی که میتونی پیدا کنی </span>
+                </div>
+
+            </div>
+            <div class="div-btn">
+                <i onclick="setslide('slide1',1)" class="fas fa-circle"></i>
+                <i onclick="setslide('slide2',2)" class="fas fa-circle"></i>
+                <i onclick="setslide('slide3',3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="home-carts">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/c1.jpg" alt="">
+                            <div class="stars">
+                                <i style="color: #757575;" class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">25.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text"href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/c2.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/c3.jpg" alt="">
+                            <div class="stars">
+                                <i style="color: #757575;" class="fas fa-star"></i>
+                                <i style="color: #757575;" class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                             sit amet consectetur adipisicing.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">15.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/c4.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i style="color: #757575;" class="fas fa-star"></i>
+                                <i style="color: #757575;" class="fas fa-star"></i>
+                                <i style="color: #757575;" class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">17.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="super-offer">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="super-offer-box">
+                        <span class="title-box">پیشنهاد شگفت انگیز</span>
+                        <div class="box-offer">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="img-super-offer-box">
+                                        <img src="./img/super-offer.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                   <div class="main-box-offer"> 
+                                      <div class="box-price">
+                                        <div class="price">5.800.000 تومان</div>
+                                        <div class="off">40% تخفیف</div>
+                                      </div>
+                                      <div class="title">ساعت هوشمند سامسونگ Galaxy Watch Active2 44mm</div>
+                                      <div class="remainig-time">
+                                          <span id="second">40</span> :
+                                          <span id="minute">24</span> :
+                                          <span id="hours">19</span>
+                                      </div>
+                                      <div class="c-remaining">زمان باقی مانده تا تمام شدن</div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="./img/friday.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dragble-list">
+            <div class="title">
+              <span>هندزفری ها</span>
+            </div>
+            <div class="scroll-cart">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h1.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h2.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h3.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h3.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h4.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h5.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="cart">
+                        <div class="img-sec">
+                            <img src="./img/h6.jpg" alt="">
+                            <span class="hot-offer">پیشنهاده ویژه</span>
+                            <div class="stars">
+                                <i  class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Lorem ipsum dolor sit.
+                        </div>
+                        <div class="button">
+                            <div class="right">
+                                <span class="price">30.000.000 تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">علاقه</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="cart-btn">
+                                    <a class="btn-text" href="">خرید</a>
+                                    <a class="btn-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">درباره ما</div>
+                    <div class="dis">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                         و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                         بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                         و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                         متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                         کتابهای زیادی در شصت و سه درصد گذشته حال
+                         و آینده، شناخت فراوان جامعه و متخصصان
+                         را می طلبد، تا با نرم افزارها شناخت بیشتری را
+                         برای طراحان رایانه ای علی الخصوص طراحان خلاقی،
+                         و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="left">
+                    <div class="title">
+                        در شبکه های اجتماعی به ما سربزنید
+                    </div>
+                    <div class="socials">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           &copy copyright by RezaNangir 
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/3911b696e8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+  </body>
+</html>
